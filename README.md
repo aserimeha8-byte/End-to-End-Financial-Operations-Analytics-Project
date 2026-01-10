@@ -24,24 +24,25 @@ A comprehensive end-to-end financial analytics project covering revenue forecast
 ```
 financial-operations-analytics/
 │
+├── data
 ├── financial_customers.csv           # Customer master data
 ├── financial_transactions.csv        # Transaction history
 ├── monthly_revenue.csv               # Aggregated monthly metrics
 │
+├── code & summary
 ├── financial_analytics.py            # Complete analysis script
 ├── EXECUTIVE_SUMMARY_FINANCIAL.txt   # Executive report
 ├── kpi_summary.txt                   # Key metrics summary
 │
+├── analyse
 ├── at_risk_customers.csv             # High churn risk list
 ├── rfm_segmentation.csv              # RFM customer segments
 │
-├── financial_viz/                    # All visualizations (16 files)
+├── images                            # All visualizations (16 files)
 │   ├── 01_initial_exploration.png
 │   ├── 02_ts_decomposition.png
 │   ├── 03_acf_pacf_analysis.png
 │   ├── 04_arima_forecast.png
-│   ├── 05_prophet_forecast.png
-│   ├── 06_prophet_components.png
 │   ├── 07_churn_analysis.png
 │   ├── 08_churn_model_evaluation.png
 │   ├── 09_churn_feature_importance.png
@@ -53,8 +54,7 @@ financial-operations-analytics/
 │   ├── 15_profitability_dashboard.png
 │   └── 16_FINAL_EXECUTIVE_DASHBOARD.png
 │
-├── README.md                         # This file
-└── requirements.txt                  # Python dependencies
+└── README.md                         # This file
 ```
 
 ---
